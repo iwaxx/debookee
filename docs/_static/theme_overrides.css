@@ -1,0 +1,61 @@
+/*
+
+From mitmproxy project
+
+docs: cleanups improvements and fighting sphinx
+- Hide links to internal code listings, and link to github instead
+- Improve formatting of code/example captions
+- Fix outdated documentation of command-line options
+- Complete documentation of all events + improved formatting
+- tcp_open -> tcp_start, tcp_close -> tcp_end to reduce confusion
+https://github.com/mitmproxy/mitmproxy/commit/fdb6a44245249a50b5c95cdf0d8d13ecddfe5726
+
+docs: make sidebar headings more legible
+https://github.com/mitmproxy/mitmproxy/commit/7998c1ff86a0890eedc8b5c5f8ecfc7bc70639ea
+
+ */
+
+
+/* override table width restrictions */
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+
+.wy-table-responsive > table > tbody > tr > td {
+    vertical-align: top !important;
+}
+
+.wy-table-responsive {
+    margin-bottom: 24px;
+    max-width: 100%;
+    overflow: visible;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #e0e0e0;
+}
+
+.code-block-caption {
+    height: 1.5em;
+}
+
+.code-block-caption .caption-text {
+    font-size: 0.8em;
+    float: right;
+}
+
+.code-block-caption .headerlink {
+    display: none !important;
+}
+
+.function .headerlink {
+    display: none !important;
+}
+
+dl .reference.internal {
+    display: none !important;
+}
+
+dl .headerlink {
+    display: none !important;
+}
