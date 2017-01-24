@@ -9,3 +9,4 @@ The Network Analysis module monitors and analyze in real-time the network data o
 It currently supports HTTP, DNS, TCP, DHCP, SIP, RTP (VoIP) protocols.
 
 It does NOT decrypt HTTPS yet. All features are available in the free trial.
+

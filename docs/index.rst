@@ -11,7 +11,7 @@
     :caption: Common Features
     
     lanscan
-    interception
+    mitm
 
 .. toctree::
     :hidden:
@@ -20,6 +20,10 @@
     trial_limitations
     na_module
     wm_module
+    
+.. toctree::
+    :hidden:
+    :caption: FAQ
 
 
 .. Indices and tables
