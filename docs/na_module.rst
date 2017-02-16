@@ -35,4 +35,4 @@ One idea is to use both Debookee and Wireshark at the same time:
     
     To filter, one idea of display filter could be to hide all outgoing packets of your targets like:
     ``!(eth.src == mac_address_of_my_mac && ip.src != ip_of_my_mac) &&``
-    ``!(eth.dst == mac_address_of_my_mac && ip.dst != ip_of_my_mac))``
+    ``!(eth.dst == mac_address_of_my_mac && ip.dst != ip_of_my_mac)``

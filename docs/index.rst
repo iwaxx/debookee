@@ -19,6 +19,12 @@
     wm_module
     ssl
 
+.. toctree::
+    :caption: Frequently Asked Questions
+    
+    faq
+
+
 .. Indices and tables
    ===============
 
