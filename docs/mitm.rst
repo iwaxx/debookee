@@ -13,7 +13,7 @@ It allows you to transparently capture data from mobile devices on your Mac (iPh
 .. note::
     Interception is a native feature of Debookee, included in the free trial.
     
-    **You don't need the NA module to intercept targets traffic** to your Mac, but the results of analysis (HTTP, TCP ...) will be obfuscated at some point in the free trial of NA module.
+    **You don't need the NA license to intercept targets traffic** to your Mac, but the results of analysis (HTTP, TCP ...) will be obfuscated at some point in the free trial of NA module.
 
 .. warning::
     **Interception may fail** on some networks, specially on professional wireless networks (Aruba, Cisco, HP…), due to Proxy ARP or security features that detect the MITM.
