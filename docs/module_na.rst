@@ -1,9 +1,9 @@
-.. _na_module_long:
+.. _module_na_long:
 
-Network Analysis (NA) Module
+NA --- Network Analysis Module
 ============================
 
-.. _na_module:
+.. _module_na:
 
 NA Module
 ---------

@@ -1,9 +1,9 @@
-.. _wm_module_long:
+.. _module_wm_long:
 
-Wi-Fi Monitoring (WM) Module
+WM - Wi-Fi Monitoring Module
 ============================
 
-.. _wm_module:
+.. _module_wm:
 
 WM module
 ---------

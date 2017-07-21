@@ -14,10 +14,11 @@
 .. toctree::
     :caption: Modules
 
-    trial_limitations
-    na_module
-    wm_module
-    ssl
+    module_trial
+    module_na
+    module_wm
+    module_ssl
+    module_pro
 
 .. toctree::
     :caption: Frequently Asked Questions
