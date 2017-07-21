@@ -3,6 +3,8 @@
 PRO - Professional Module
 =========================
 
+*PRO module is currently only accessible in half-public beta tests on a private URL. Check out this* `blog post <https://github.com/iwaxx/blog/issues/2>`_ *for more informations.*
+
 PRO module is an extension of the SSL module which implements:
 
     * Email decryption : IMAPS / SMTPS / POPS decryption of your own traffic and all your targets traffic

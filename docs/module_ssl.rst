@@ -5,6 +5,8 @@
 SSL --- SSL/TLS Decryption Module
 ===============================
 
+*SSL module is currently only accessible in half-public beta tests on a private URL. Check out this* `blog post <https://github.com/iwaxx/blog/issues/2>`_ *for more informations.*
+
 The SSL module is an extension of :ref:`module_na` which allows HTTPS decryption of your own traffic and :ref:`intercepted targets <mitm>` by setting an HTTPS man-in-the-middle proxy.
 
 By default, TLS decryption is not enabled. Debookee can run in 3 modes:
