@@ -60,7 +60,7 @@ Examples
 
 Key Pinning
 -----------
-Some clients implements `HTTP Public Key Pinning <https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning>`_, a security mechanism which prevents impersonation of a TLS server.
+Some clients implement `HTTP Public Key Pinning <https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning>`_, a security mechanism which prevents impersonation of a TLS server.
 
 Key Pinning can be strict or not. When strict, even if the CA is installed, the client won't accept to establish the impersonated TLS connection.
 In a future release, Debookee will implement a white-list to avoid decryption of some connections involving strict Key Pinning.
