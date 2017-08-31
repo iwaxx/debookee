@@ -19,6 +19,7 @@
     module_wm
     module_ssl
     module_pro
+    module_combos
 
 .. toctree::
     :caption: Frequently Asked Questions
