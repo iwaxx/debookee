@@ -5,8 +5,12 @@
 SSL --- SSL/TLS Decryption Module
 ===============================
 
-*SSL module is currently only available in beta. You can enable beta updates inside Debookee in Menu Debookee -> Preferences -> General -> Check: Propose beta version updates*
-
+.. note::
+    SSL module is currently only available in beta and for *macOS 10.12 minimum.* |br|
+    You can enable beta updates inside Debookee in ``Menu Debookee -> Preferences -> General -> Propose beta version updates`` |br|
+    Then force update with ``Menu Debookee -> Check for Updates...`` |br|
+    
+    Check out this `blog post <https://github.com/iwaxx/blog/issues/2>`_ for more informations.
 The SSL module is an extension of :ref:`module_na` which allows HTTPS decryption of your own traffic and :ref:`intercepted targets <mitm>` by setting an HTTPS man-in-the-middle proxy.
 
 By default, TLS decryption is not enabled. Debookee can run in 3 modes:
