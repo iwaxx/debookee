@@ -72,7 +72,6 @@ In a future release, Debookee will implement a white-list to avoid decryption of
 
 .. _module_ssl_ca_install:
 
-
 Installation of Debookee's Certificate Authority (CA)
 -----------------------------------------------------
 

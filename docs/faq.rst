@@ -68,7 +68,7 @@ But wait. Don't throw away Debookee directly, if you want to see raw data of you
 
 I've installed the certificate on iOS but iPhone/iPad traffic is still not decrypted?
 -------------------------------------------------------------------------------------
-You've correctly installed the root certificate on iOS if you see Debookee's certificate in ``General -> Profile``.
+You've correctly :ref:`installed the root certificate <module_ssl_ca_install>` on iOS if you see Debookee's certificate in ``General -> Profile`` on your iPhone/iPad.
 
 **Additionally, for iOS version 10.3 and later**, you also need to manually enable full trust for that certificate. |br|
 Make sure Debookee's CA is also enabled in ``Settings > General > About > Certificate Trust Settings``
