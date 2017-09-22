@@ -1,3 +1,5 @@
+.. include:: global.rst
+
 .. _faq:
 
 Debookee
@@ -63,6 +65,15 @@ NA & WM modules use Lua scripts & tshark and we worked with Wireshark core dev t
 
 But wait. Don't throw away Debookee directly, if you want to see raw data of your mobiles or IoT things, maybe you'll be interested in :ref:`module_na_dbk_and_wireshark`.
 
+
+I've installed the certificate on iOS but iPhone/iPad traffic is still not decrypted?
+-------------------------------------------------------------------------------------
+You've correctly installed the root certificate on iOS if you see Debookee's certificate in ``General -> Profile``.
+
+**Additionally, for iOS version 10.3 and later**, you also need to manually enable full trust for that certificate. |br|
+Make sure Debookee's CA is also enabled in ``Settings > General > About > Certificate Trust Settings``
+
+Check out this `Apple's FAQ <https://support.apple.com/en-ca/HT204477>`_ for more information.
 
 
 LanScan on AppStore
