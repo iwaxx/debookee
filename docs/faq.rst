@@ -63,7 +63,7 @@ We love `Wireshark <https://www.wireshark.org>`_ too! So much that we included i
 
 NA & WM modules use Lua scripts & tshark and we worked with Wireshark core dev team during `SharkFest 2015 <https://sharkfest.wireshark.org/>`_ to integrate the whole stuff, while respecting their open source license.
 
-But wait. Don't throw away Debookee directly, if you want to see raw data of your mobiles or IoT things, maybe you'll be interested in :ref:`module_na_dbk_and_wireshark`.
+But wait. Don't throw away Debookee directly, if you want to see raw data of your mobiles or IoT things, maybe you'll be interested in :ref:`module_na_dbk_and_wireshark`, because Wireshark alone will show you your own traffic, it can't intercept traffic of other devices on your network like NA module.
 
 
 I've installed the certificate on iOS but iPhone/iPad traffic is still not decrypted?
@@ -121,3 +121,16 @@ We’re using the `IEEE list <http://standards-oui.ieee.org/oui/oui.txt>`_ for o
 As it’s updated more frequently, Debookee will typically have a more up-to-date vendors list than LanScan and LanScan Pro.
 Dynamic updates will be added in a future release.
 
+Where are custom hostnames located?
+-----------------------------------
+At first: *please backup!*
+
+Custom hostnames are saved in the following XML plist files. Take care that those files can be cached, and you may edit them without seeing any results.
+So please be sure to erase the plist cache with command:
+``defaults read my_freshly_edited_plist_file.plist``
+
+=================  ================
+LanScan            ~/Library/Containers/com.iwaxx.LanScan/Data/Library/Preferences/com.iwaxx.LanScan.plist
+LanScan Pro        ~/Library/Containers/com.iwaxx.LanScan-Pro/Data/Library/Preferences/com.iwaxx.LanScan-Pro.plist
+Debookee           ~/Library/Preferences/com.iwaxx.Debookee.plist
+=================  ================
