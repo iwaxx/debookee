@@ -1,5 +1,7 @@
 .. include:: global.rst
 
+.. title:: FAQ
+
 .. _faq:
 
 Debookee
@@ -134,3 +136,36 @@ LanScan            ~/Library/Containers/com.iwaxx.LanScan/Data/Library/Preferenc
 LanScan Pro        ~/Library/Containers/com.iwaxx.LanScan-Pro/Data/Library/Preferences/com.iwaxx.LanScan-Pro.plist
 Debookee           ~/Library/Preferences/com.iwaxx.Debookee.plist
 =================  ================
+
+Several devices have the same duplicated MAC address but different IPs.
+-----------------------------------------------------------------------
+
+LanScan doesn't modify anything on your network: think about it as Read-Only on your network, it asks questions (ARP requests) and display answers listened directly from the network.
+
+Duplicated MAC addresses are usually cause by a device which is answering instead of other ones, commonly called ARP proxy or "Bonjour Sleep Proxy" in case of Apple devices (Airport Extreme, Time Capsule, Apple TV...)
+
+ARP proxy
+^^^^^^^^^
+
+Commonly used on wireless network to lower broadcasted traffic, you may see an Access Point (AP) or a router answering instead of other devices, in that case you'll see the AP or router's MAC address duplicated. |br|
+→ If you're scanning while on the Wi-Fi, try to cable your Mac and scan again from the LAN point of view.
+
+Bonjour Sleep Proxy
+^^^^^^^^^^^^^^^^^^^
+
+In short, when an Apple compatible device such as a Mac, an Apple TV... goes in sleep mode, it advertises the Apple device compatible with Bonjour Proxy, which will answer to some requests in its name (including those that LanScan send to discover devices), so that the TV or the Mac stays in sleep mode.
+
+You can find more information here:
+https://en.wikipedia.org/wiki/Bonjour_Sleep_Proxy
+
+In that case you'll see several time the MAC address of the device acting as a proxy. |br|
+→ Waking up the final device should help to show its real MAC address in that case
+
+Blog
+====
+
+`Debookee v6 beta is out - Welcome SSL/TLS decryption <https://github.com/iwaxx/blog/issues/2>`_
+
+`Promiscuous vs Monitoring mode <https://github.com/iwaxx/blog/issues/3>`_
+
+`LanScan 5.0 introduces new 'Live Scan' feature <https://github.com/iwaxx/blog/issues/4>`_

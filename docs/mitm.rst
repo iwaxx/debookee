@@ -1,3 +1,5 @@
+.. title:: Traffic Interception (MITM & ARP spoofing)
+
 .. _mitm:
 
 Traffic Interception (MITM)
