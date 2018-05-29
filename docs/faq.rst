@@ -176,9 +176,24 @@ There's no menu "Migrate to LanScan In-App v5" in LanScan Pro
 
 This menu appeared in LanScan Pro 5.1, be sure that your LanScan Pro app is up to date.
 
+I've migrated but there's still an In-App purchase in LanScan
+-------------------------------------------------------------
+
+As specified in LanScan Pro migration window, the free migration consists in retrieving the same feature in LanScan that in LanScan Pro: see all hostnames and comments without obfuscation.
+
+LanScan v6 also introduces a new TCP port scanner, which is a paying upgrade of $0.99 for current LanScan Pro users. |br|
+This upgrade is optional and is the first paying upgrade since 2011. It's not scheduled to add other paying upgrade in a near future.
+
+To be sure that you've migrated successfully, go in ``Help -> Support -> Show In-App purchases``, you should have 
+
+* isInAppv5FreePurchased:1
+* isInAppv5Purchased:1
+
 
 Blog
 ====
+
+`LanScan 6.0 and it's fresh new TCP port scanner <https://github.com/iwaxx/blog/issues/6>`_
 
 `Debookee v6 beta is out - Welcome SSL/TLS decryption <https://github.com/iwaxx/blog/issues/2>`_
 
