@@ -186,8 +186,8 @@ This upgrade is optional and is the first paying upgrade since 2011. It's not sc
 
 To be sure that you've migrated successfully, go in ``Help -> Support -> Show In-App purchases``, you should have 
 
-* isInAppv5FreePurchased:1
-* isInAppv5Purchased:1
+* ``isInAppv5FreePurchased:1``
+* ``isInAppv5Purchased:1``
 
 
 Blog
