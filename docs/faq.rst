@@ -161,6 +161,22 @@ https://en.wikipedia.org/wiki/Bonjour_Sleep_Proxy
 In that case you'll see several time the MAC address of the device acting as a proxy. |br|
 → Waking up the final device should help to show its real MAC address in that case
 
+In-App purchase is stuck in "Retrieving Information from App Store."
+--------------------------------------------------------------------
+
+This means that LanScan can't connect to App Store to get informations concerning the In-App purchase.
+
+* Launch App Store application and check if you're logged in and if you can browse various applications (testing Internet connectivity)
+* If logged in, try to log out and log in again App Store.app
+* Sometimes, a popup window appears behind LanScan window asking for credentials, be sure to see that tiny window
+* That but true: try to reboot your Mac and log in App Store.app again.
+
+There's no menu "Migrate to LanScan In-App v5" in LanScan Pro
+-------------------------------------------------------------
+
+This menu appeared in LanScan Pro 5.1, be sure that your LanScan Pro app is up to date.
+
+
 Blog
 ====
 
