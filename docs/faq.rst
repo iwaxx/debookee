@@ -111,7 +111,7 @@ What are the differences between LanScan App Store apps and the LanScan tool inc
 ========================================================================================================    ==========================
 `LanScan - Free - App Store <https://itunes.apple.com/us/app/lanscan/id472226235?mt=12>`_                   Only 4 hostnames are fully displayed, you'll see the first 3 chars of the others.
 `LanScan - In-App purchase Pro - App Store <https://itunes.apple.com/us/app/lanscan/id472226235?mt=12>`_    No limitation on resolved hostnames
-`LanScan Pro <https://itunes.apple.com/us/app/lanscan-pro/id562184107?mt=12>`_                              No limitation on resolved hostnames. Same code as In-App purchase, it was just created before In-App existed. Since v4, it's preferred to buy the In-App purchase in LanScan Free edition than buying the LanScan Pro application.
+`LanScan Pro <https://itunes.apple.com/us/app/lanscan-pro/id562184107?mt=12>`_                              Since v5, LanScan Pro is no longer maintained and all current users are migrated to LanScan + In-App. Don't buy LanScan Pro anymore.
 Debookee's LanScan tool                                                                                     Advanced version of LanScan Pro application. Each new feature is first released in Debookee's LanScan tool, then on App Store
 ========================================================================================================    ==========================
 
@@ -132,10 +132,12 @@ So please be sure to erase the plist cache with command:
 ``defaults read my_freshly_edited_plist_file.plist``
 
 =================  ================
-LanScan            ~/Library/Containers/com.iwaxx.LanScan/Data/Library/Preferences/com.iwaxx.LanScan.plist
-LanScan Pro        ~/Library/Containers/com.iwaxx.LanScan-Pro/Data/Library/Preferences/com.iwaxx.LanScan-Pro.plist
+LanScan            ~/Library/Group\ Containers/AATLWWB4MZ.com.iwaxx.app-group/Library/Application\ Support/DevicesDict-LS.plist
+LanScan Pro        ~/Library/Group\ Containers/AATLWWB4MZ.com.iwaxx.app-group/Library/Application\ Support/DevicesDict-LSP.plist
 Debookee           ~/Library/Preferences/com.iwaxx.Debookee.plist
 =================  ================
+
+Since v6.0.2, LanScan will retrieve LanScan Pro hostnames automatically for users who migrated.
 
 Several devices have the same duplicated MAC address but different IPs.
 -----------------------------------------------------------------------
@@ -193,10 +195,16 @@ To be sure that you've migrated successfully, go in ``Help -> Support -> Show In
 Blog
 ====
 
+`How to migrate from LanScan Pro to LanScan <https://github.com/iwaxx/blog/issues/7>`_
+
 `LanScan 6.0 and it's fresh new TCP port scanner <https://github.com/iwaxx/blog/issues/6>`_
 
-`Debookee v6 beta is out - Welcome SSL/TLS decryption <https://github.com/iwaxx/blog/issues/2>`_
+`LanScan 5.0 introduces new 'Live Scan' feature <https://github.com/iwaxx/blog/issues/4>`_
 
 `Promiscuous vs Monitoring mode <https://github.com/iwaxx/blog/issues/3>`_
 
-`LanScan 5.0 introduces new 'Live Scan' feature <https://github.com/iwaxx/blog/issues/4>`_
+`Debookee v6 beta is out - Welcome SSL/TLS decryption <https://github.com/iwaxx/blog/issues/2>`_
+
+
+
+
