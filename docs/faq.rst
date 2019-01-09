@@ -86,7 +86,7 @@ What personal information do we collect?
 
 None.
 
-All payments are made through App Store, we don't know any email, name, credit card number.
+All payments are made through App Store, we don't know any email, name, credit card number. |br|
 All network informations (MAC addresses, IPs, hostnames, custom settings) retrieved by LanScan stays on your Mac.
 
 An advert is displayed at the bottom of the free version, and that's the only reason why LanScan contacts the domain iwaxx.com on each launch.
