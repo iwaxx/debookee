@@ -138,13 +138,13 @@ Where are custom hostnames located?
 -----------------------------------
 At first: *please backup!*
 
-Custom hostnames are saved in the following XML plist files. Take care that those files can be cached, and you may edit them without seeing any results.
-So please be sure to erase the plist cache with command:
+Custom hostnames are saved in the following XML plist files. Take care to spaces in "Group Containers" and "Application Support". |br|
+Also, those files can be cached, and you may edit them without seeing any results. Be sure to erase the plist cache with command:
 ``defaults read my_freshly_edited_plist_file.plist``
 
 =================  ================
-LanScan            ~/Library/Group\ Containers/AATLWWB4MZ.com.iwaxx.app-group/Library/Application\ Support/DevicesDict-LS.plist
-LanScan Pro        ~/Library/Group\ Containers/AATLWWB4MZ.com.iwaxx.app-group/Library/Application\ Support/DevicesDict-LSP.plist
+LanScan            ~/Library/Group Containers/AATLWWB4MZ.com.iwaxx.app-group/Library/Application Support/DevicesDict-LS.plist
+LanScan Pro        ~/Library/Group Containers/AATLWWB4MZ.com.iwaxx.app-group/Library/Application Support/DevicesDict-LSP.plist
 Debookee           ~/Library/Preferences/com.iwaxx.Debookee.plist
 =================  ================
 
