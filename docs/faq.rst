@@ -121,9 +121,9 @@ What are the differences between LanScan App Store apps and the LanScan tool inc
 
 ========================================================================================================    ==========================
 `LanScan - Free - App Store <https://itunes.apple.com/us/app/lanscan/id472226235?mt=12>`_                   Only 4 hostnames are fully displayed, you'll see the first 3 chars of the others.
-`LanScan - In-App purchase Pro - App Store <https://itunes.apple.com/us/app/lanscan/id472226235?mt=12>`_    No limitation on resolved hostnames
+`LanScan - In-App purchase Pro - App Store <https://itunes.apple.com/us/app/lanscan/id472226235?mt=12>`_    No limitation on resolved hostnames.
 `LanScan Pro <https://itunes.apple.com/us/app/lanscan-pro/id562184107?mt=12>`_                              Since v5, LanScan Pro is no longer maintained and all current users are migrated to LanScan + In-App. Don't buy LanScan Pro anymore.
-Debookee's LanScan tool                                                                                     Advanced version of LanScan Pro application. Each new feature is first released in Debookee's LanScan tool, then on App Store
+Debookee's LanScan tool                                                                                     Corresponds to LanScan Pro v5. The App Store version is much more advanced than this one. No new features are scheduled to be added in Debookee's Lanscan tool.
 ========================================================================================================    ==========================
 
 
